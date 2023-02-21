@@ -39,8 +39,12 @@ Launch Wireshark and filter ICMP traffic only. ICMP stands for Internet Control
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/FnMCnQs.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br /v>
 <p>
-Next we will use the command ping -t to the Linux computer private ip address. The response from this command will be continuously until we stop it.</p>
+<img src=https://i.imgur.com/6hIPjP9.png height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>  
+Next we will use the command ping -t to the Linux computer private ip address. The response from this command will be continuous or non-stop until we stop it.To stop the continuous pinging, we will go to the Linux virtual machine in azure and block inbound ICMP traffic on its firewall. We do this by creating a Network security group that block or deny any incoming traffic from ICMP. </p>
 <br />
