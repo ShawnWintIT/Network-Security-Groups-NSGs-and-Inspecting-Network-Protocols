@@ -55,3 +55,16 @@ Next we will use the command ping -t to the Linux computer private ip address. 
 </P>
 <p>
 We will now explore into SSH traffic. SSH, short for secure shell,is a network protocol and a secure way of accessing a remote computer and communicate with another remote computer over an unsecured network. Next we will use SSH to connect with Linux Machine, go back to wireshark to filter SSH packets only.In your windows 10 vm use powershell to use command "ssh,username of Linux machine@private Ip address for connection".
+</p>
+<br />
+
+<p>
+<img src= https://i.imgur.com/07oMCOo.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</P>
+<p>
+Lets try out some Linux commands. "Id" command is used to display the user and group IDs of the current user, or of a specified user. "uname -a" is used to display various system information, including the Linux kernel version, the machine hardware architecture, the operating system distribution, and the hostname of the system. "Pwd" stands for "print working directory" and is used to display the current working directory. When executed, the "pwd" command displays the full path of the current directory, starting from the root directory. "Ls -lasth" It is used to list the contents of a directory, including files and directories along with their details such as file size. we can also create a new text in this directory with command "touch hi.txt", then you will type the command "ls -lath" to redisplay the files and directories and it will appear within the contents.
+</p>
+<br />
+
+<p>
+<img src=   
