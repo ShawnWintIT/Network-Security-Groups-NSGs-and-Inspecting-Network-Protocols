@@ -51,4 +51,7 @@ Next we will use the command ping -t to the Linux computer private ip address. 
 <br />
 
 <p>
-<img src=  
+<img src= https://i.imgur.com/nWpAY6L.png height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+</P>
+<p>
+We will now explore into SSH traffic. SSH, short for secure shell,is a network protocol and a secure way of accessing a remote computer and communicate with another remote computer over an unsecured network. Next we will use SSH to connect with Linux Machine, go back to wireshark to filter SSH packets only.In your windows 10 vm use powershell to use command "ssh,username of Linux machine@private Ip address for connection".
