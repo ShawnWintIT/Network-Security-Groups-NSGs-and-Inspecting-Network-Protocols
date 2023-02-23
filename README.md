@@ -78,5 +78,12 @@ Next we will use wireshark to filter DHCP and request for a new ip address with 
 <img src= https://i.imgur.com/XSgsoG3.png height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 </p>
 <p>
-Next we will filter DNS in wireshark. By entering the command "nslookup www.google.com," which simply asks our DNS server for Google's IP address, DNS traffic will be started.  
-  
+Next we will filter DNS in wireshark. By entering the command "nslookup www.google.com," which simply asks our DNS server for Google's IP address, DNS traffic will be started.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/NBbwMpk.png height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+</p>
+<p>
+Filter RDP communication in Wireshark (tcp.port == 3389). TCP is the default port used by microsoft's remote desktop protocol,Therefore, the filter "tcp.port == 3389" can be used to capture and analyze network traffic that involves the RDP protocol. This can be useful for troubleshooting network issues, detecting potential security threats, or monitoring network usage. Because we are connecting to our virtual machine via Remote Desktop Protocol, traffic on tcp.port == 3389 is constantly being spammed.  
