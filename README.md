@@ -70,5 +70,13 @@ Lets try out some Linux commands. "Id" command is used to display the user and g
 <img src= https://i.imgur.com/Nw7FxNj.png height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <P>
-Next we will use wireshark to filter DHCP and request for a new ip address with command ipconfig /renew then observe the changes. DHCP stands for dynamic host configuration protocol, its a network protocol used to assign IP addresses.  
+Next we will use wireshark to filter DHCP and request for a new ip address with command ipconfig /renew then observe the changes. DHCP stands for dynamic host configuration protocol, its a network protocol used to assign IP addresses.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/XSgsoG3.png height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+</p>
+<p>
+Next we will filter DNS in wireshark. By entering the command "nslookup www.google.com," which simply asks our DNS server for Google's IP address, DNS traffic will be started.  
   
