@@ -25,7 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src=https://i.imgur.com/13YzSfe.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create two Virtual Machines, one will be microsoft 10 and the other will be linx 20.04. Once created, connect to your Windows 10 virtual machine &
+Create two Virtual Machines, one will be microsoft 10 and the other will be linux 20.04. Once created, connect to your Windows 10 virtual machine &
 install Wireshark. 
 </p>
 <br />
